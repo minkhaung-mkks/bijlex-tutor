@@ -1,0 +1,35 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 2vh;
+    background-color: white;
+    z-index: 999;
+}
+
+.logo_header{
+    width: 150px;
+    object-fit: contain;
+    margin-left: 3%;
+}
+
+.nav_links{
+    margin-left: auto;
+    margin-right: 3%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    width: 60%;
+}
+
+.trial_btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 1rem;
+}

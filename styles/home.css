@@ -1,0 +1,241 @@
+.hero_section {
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 10vh;
+  position: relative;
+}
+.hero_content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.hero_bg {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
+  filter: brightness(0.5);
+}
+
+.hero_section a {
+  background-color: rgb(53, 175, 250);
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero_content h1 {
+  font-size: 3rem;
+  color: white;
+}
+.hero_content p {
+  width: 60%;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 100;
+  line-height: 2rem;
+}
+
+.why_section {
+  margin-top: 2vh;
+  padding-bottom: 5rem;
+  min-height: 80vh;
+}
+
+.why_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46%;
+  margin: 0 auto;
+  padding: 3%;
+  gap: 30px;
+}
+
+.why_section h2 {
+  color: rgb(53, 175, 250);
+  font-size: 2rem;
+}
+
+.why_section p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.why_intro p {
+  text-align: left;
+}
+
+.advantage_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  gap: 8%;
+}
+.advantage {
+  width: 20%;
+  text-align: center;
+  height: 150px;
+}
+
+.advantage svg {
+  stroke: rgb(53, 175, 250);
+  width: 60px;
+  height: 80px;
+}
+
+.for_section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70vh;
+}
+
+.for_section h2 {
+  color: rgb(53, 175, 250);
+  height: 40px;
+}
+
+.for_explaination_section {
+  width: 70%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  padding-right: 5%;
+  border-right: 3px solid rgb(53, 175, 250);
+}
+
+.for_explaination_section img {
+  height: 180px;
+}
+
+.student_section {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+  margin-left: 5%;
+}
+
+.for_explaination_section p {
+  line-height: 1.75rem;
+}
+
+.intended_student {
+  display: flex;
+  height: 3.5rem;
+  gap: 20px;
+  align-items: center;
+}
+
+.intended_student svg {
+  width: 40px;
+  stroke: rgb(53, 175, 250);
+}
+
+.gurantee_section {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gurantee_section svg {
+  width: 50px;
+  stroke: rgb(53, 175, 250);
+}
+
+.cost_section {
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.cost_section_box {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 5vh;
+}
+
+.cost_section h2 {
+  text-align: center;
+  color: rgb(53, 175, 250);
+  font-size: 2.5rem;
+}
+
+.cost {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5%;
+  width: 20%;
+}
+
+.cost h3 {
+  color: rgb(53, 175, 250);
+  height: 30px;
+}
+
+.cost p {
+  height: 30px;
+}
+
+.cost svg {
+  width: 50px;
+  stroke: rgb(53, 175, 250);
+}
+
+.team_cards_box {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 5%;
+  margin-top: 5vh;
+}
+
+.team_card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 0px;
+}
+
+.team_card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.meet_us_box {
+  padding: 5rem;
+}
+
+.meet_us_box h2 {
+  color: rgb(53, 175, 250);
+  text-align: center;
+  font-size: 2.25rem;
+}
